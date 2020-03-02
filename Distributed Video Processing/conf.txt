@@ -1,0 +1,23 @@
+[conf]
+number_of_tracker_processes = 3
+number_of_Data_keepers = 3
+number_of_Data_keeper_ports = 3
+start_address_of_ports = 5000
+
+[machine1]
+ip = 127.0.0.1
+port1 = 5000
+port2 = 5001
+port3 = 5002
+
+[machine2]
+ip = 127.0.0.2
+port1 = 6000
+port2 = 6001
+port3 = 6002
+
+[machine3]
+ip = 127.0.0.3
+port1 = 7000
+port2 = 7001
+port3 = 7002
