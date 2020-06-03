@@ -1,0 +1,21 @@
+[conf]
+number_of_tracker_processes = 3
+number_of_Data_keepers = 3
+number_of_Data_keeper_ports = 3
+start_address_of_ports = 5000
+start_address_of_DataKeepers = 6000
+file_tracker_port_address = 10000
+heartBeat_port_address = 9000
+replica_period = 20
+replica_factor = 3
+
+file_tracker_ip = 192.168.1.6
+
+[machine1]
+ip = 192.168.1.7
+
+[machine2]
+ip = 192.168.1.8
+
+[machine3]
+ip = 192.168.1.9
